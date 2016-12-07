@@ -87,8 +87,9 @@ public class Limites {
         
         
     }
-        x.ofoto("tabla.jpg");
+        
     }
+    x.ofoto("tabla.jpg");
     }
     public static void main(String[] args) throws IOException {
         Limites a = new Limites ();

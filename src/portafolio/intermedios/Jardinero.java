@@ -45,8 +45,6 @@ public class Jardinero {
         x.setVisible(true);
         
         for(int i=0; i<array.length; i++){
-         valor = valor+1;
-       array[i]=(int)valor;
        area = i*(100 - (2*i));
         x.out("Tabla "+i+" ");
         x.out ("el area es " +area+ "\n");
