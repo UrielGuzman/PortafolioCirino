@@ -1,8 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/* Rehilete.java
+Tecnologico Nacional De Mexico
+instituto tecnologico de leon
+ingenieria en sistemas computacionales
+fundamentos de programacion
+Lunes-Miercoles: 10:30am - 12:10pm
+Viernes: 10:30am - 11:20am
+alumno(a): Edvin Uriel Guzman Ruiz
+Ejercicio: #:53
+Fecha: 
+*/
 package portafolio.intermedios;
 
 import portafolio.intermedios.capsulas.Rehil;
@@ -45,7 +51,7 @@ public class Rehilete {
         for (int i = 0; i < nu + 1; i++) {
             for (int x = 0; x < i; x++) {
 //                System.out.printf("/");
-                p.out("*");
+                p.out(String.valueOf(x+1));
 
                 bandera = true;
             }
@@ -102,7 +108,7 @@ public class Rehilete {
             }
             for (int x = -1; x < i; x++) {
 //                System.out.printf("/");
-                p.out("*");
+                p.out(String.valueOf(x+2));
 
             }
             for (int x = -1; x < i; x++) {

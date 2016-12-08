@@ -1,8 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/* Nadador.java
+Tecnologico Nacional De Mexico
+instituto tecnologico de leon
+ingenieria en sistemas computacionales
+fundamentos de programacion
+Lunes-Miercoles: 10:30am - 12:10pm
+Viernes: 10:30am - 11:20am
+alumno(a): Edvin Uriel Guzman Ruiz
+Ejercicio: #:28
+Fecha: 
+*/
 package portafolio.basicos;
 
 import portafolio.basicos.capsulas.Medallas;
@@ -10,10 +16,6 @@ import java.io.IOException;
 import cstio.*;
 
 
-/**
- *
- * @author Dixven
- */
 public class Nadador {	
 Medallas c1 = new Medallas();
 Pizarra x = new Pizarra();

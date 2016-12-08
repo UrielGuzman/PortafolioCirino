@@ -1,8 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/* Promedio.java
+Tecnologico Nacional De Mexico
+instituto tecnologico de leon
+ingenieria en sistemas computacionales
+fundamentos de programacion
+Lunes-Miercoles: 10:30am - 12:10pm
+Viernes: 10:30am - 11:20am
+alumno(a): Edvin Uriel Guzman Ruiz
+Ejercicio: #:44
+Fecha: 
+*/
 package portafolio.intermedios;
 
 import cstio.Dialog;
@@ -51,8 +57,7 @@ public class Promedio {
                 suma = suma + numero;
                 if(Integer.parseInt(aux)==0) {
                 i++;
-                control = control + 1;                   
-            }                    
+               }                    
         }    
     
     }

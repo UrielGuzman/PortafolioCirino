@@ -1,8 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/* Fractoriales.java
+Tecnologico Nacional De Mexico
+instituto tecnologico de leon
+ingenieria en sistemas computacionales
+fundamentos de programacion
+Lunes-Miercoles: 10:30am - 12:10pm
+Viernes: 10:30am - 11:20am
+alumno(a): Edvin Uriel Guzman Ruiz
+Ejercicio: #:43
+Fecha: 
+*/
+
 package portafolio.intermedios;
 
 import portafolio.intermedios.capsulas.Fact;
@@ -10,10 +17,7 @@ import cstio.Dialog;
 import cstio.Pizarra;
 import java.io.IOException;
 
-/**
- *
- * @author Dixven
- */
+
 public class Factoriales {
     Fact fac = new Fact();
     Pizarra x = new Pizarra();

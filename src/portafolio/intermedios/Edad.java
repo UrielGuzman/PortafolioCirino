@@ -1,8 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/* Edad.java
+Tecnologico Nacional De Mexico
+instituto tecnologico de leon
+ingenieria en sistemas computacionales
+fundamentos de programacion
+Lunes-Miercoles: 10:30am - 12:10pm
+Viernes: 10:30am - 11:20am
+alumno(a): Edvin Uriel Guzman Ruiz
+Ejercicio: #:52
+Fecha: 
+*/
 package portafolio.intermedios;
 
 import portafolio.intermedios.capsulas.Nacimiento;
@@ -106,7 +112,7 @@ public class Edad {
             a.resultados();
             Pizarra x = new Pizarra();
             Dialog d = new Dialog();
-            resp = d.readString("¿Desea calcular otra permutacion? s/n");
+            resp = d.readString("¿Desea calcular otra edad? s/n");
             System.in.skip(2);
         }
     }

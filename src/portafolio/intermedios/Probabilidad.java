@@ -1,19 +1,21 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/* Probabilidad.java
+Tecnologico Nacional De Mexico
+instituto tecnologico de leon
+ingenieria en sistemas computacionales
+fundamentos de programacion
+Lunes-Miercoles: 10:30am - 12:10pm
+Viernes: 10:30am - 11:20am
+alumno(a): Edvin Uriel Guzman Ruiz
+Ejercicio: #:51
+Fecha: 
+*/
 package portafolio.intermedios;
 
 import cstio.Dialog;
 import cstio.Pizarra;
 import java.io.IOException;
-import static java.lang.Math.pow;
+import static java.lang.Math.pow;   
 
-/**
- *
- * @author Dixven
- */
 public class Probabilidad {
 
     Pizarra x = new Pizarra();
@@ -87,7 +89,7 @@ public class Probabilidad {
             a.resultados();
             Pizarra x = new Pizarra();
             Dialog d = new Dialog();
-            resp = d.readString("¿Desea calcular otro promedio? s/n");
+            resp = d.readString("¿Desea ver la probabilidad nuevamente? s/n");
             System.in.skip(2);
         }
     }
