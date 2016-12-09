@@ -10,7 +10,7 @@ Ejercicio: #:62
 Fecha: 
 */
 
-package portafolio.intermedios;
+package portafolio.avanzados;
 
 import cstio.Dialog;
 import cstio.Pizarra;
@@ -19,7 +19,7 @@ import portafolio.intermedios.capsulas.Temp;
 
 
 
-public class AritmeticaArreglos {
+public class EscalarArreglos {
     
    Temp warm = new Temp();
     Pizarra x = new Pizarra();
@@ -131,7 +131,7 @@ public class AritmeticaArreglos {
     }
     }
     public static void main(String[] args) throws IOException {
-        AritmeticaArreglos a = new AritmeticaArreglos ();
+        EscalarArreglos a = new EscalarArreglos ();
         String resp = "s";
 
 
